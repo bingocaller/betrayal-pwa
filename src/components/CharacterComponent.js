@@ -8,42 +8,32 @@ class CharacterComponent extends Component {
   constructor(props) {
     super(props);
   }
-  createRemainingProps(character) {
-    let remainingProps = [];
-    // Possibilities: for…in, _.each(), Object.keys()
-    console.log(Object.keys(character));
-    remainingProps.push(
-      <p>
-        { Object.keys(character) }
-      </p>
-    );
-    console.log(remainingProps);
-    return remainingProps.shift();
-  }
   render () {
-    const { character } = this.props;
-    const remainingProps = () => this.createRemainingProps(character);
+    const { character, bio } = this.props;
+    character.hobbies = character.hobbies.join(', ');
+    const allProps = bio === 'full' ?
+      Object.getOwnPropertyNames(character).map(
+        (val, index) =>
+        <p key={ index }>
+          { `${ val.charAt(0).toUpperCase() + val.slice(1) }: ${ character[val] }` }
+        </p>
+      ) : null;
+    allProps.shift();
+    allProps.pop();
+    const stats =
+      Object.getOwnPropertyNames(character.stats).map(
+        (val, index) =>
+        <p key={ index }>
+          { `${ val.charAt(0).toUpperCase() + val.slice(1) }: ${ character.stats[val].attributes[character.stats[val].defaultIndex] }` }
+        </p>
+      );
     return (
       <div className="character">
         <h2>
           { character.name }
         </h2>
-        { remainingProps }
-        <p>
-          Age: { character.age }
-        </p>
-        <p>
-          Height: { character.height }
-        </p>
-        <p>
-          Weight: { character.weight }
-        </p>
-        <p>
-          Birthday: { character.birthday }
-        </p>
-        <p>
-          Hobbies: { character.hobbies.join(', ') }
-        </p>
+        { allProps }
+        { stats }
       </div>
     )
   }

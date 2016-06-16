@@ -8,7 +8,7 @@ require('styles/CharacterList.scss');
 let CharacterListComponent = (props) => (
   <div className="character-list">
     <h1>Characters</h1>
-    { props.characters.map((character, index) => <CharacterComponent character={ character } key={ index } />) }
+    { props.characters.map((character, index) => <CharacterComponent character={ character } bio="full" key={ index } />) }
   </div>
 );
 
