@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import CharacterListComponent from 'components/CharacterListComponent';
+import CharacterComponent from 'components/CharacterComponent';
 
-require('normalize.css/normalize.css');
 require('styles/App.css');
 
 class AppComponent extends Component {
@@ -9,7 +8,8 @@ class AppComponent extends Component {
     const characters = require('sources/characters');
     return (
       <div className="index">
-        <CharacterListComponent characters={ characters } />
+        <h1 className="headline">Characters</h1>
+        { characters.map((character, index) => <CharacterComponent character={ character } fullBio={ false } key={ index } />) }
       </div>
     );
   }

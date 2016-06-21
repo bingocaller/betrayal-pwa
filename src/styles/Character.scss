@@ -1,4 +1,46 @@
 .character {
-  padding: 1em;
+  padding: 1em .5em;
   border-top: 1px solid #efefef;
+  text-align: center;
+  &:hover,
+  &:focus,
+  &.expanded {
+    background-color: rgba(#fff, .2);
+    .character-portrait {
+      box-shadow: 0 0 0 3px #fff, 0 0 0 5px #000, 0 0 0 7px #fff;
+    }
+  }
+  .slider {
+    margin: 0 -.5em;
+  }
+  .attribute-value {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 2em;
+    height: 2em;
+    margin: 0 .0625em;
+    padding: .5em;
+    border-radius: 1em;
+    line-height: 1;
+    text-align: center;
+    cursor: pointer;
+    &:hover,
+    &:focus {
+      background-color: rgba(#fff, .2);
+    }
+    &.default {
+      font-weight: 700;
+      background-color: rgba(#fff, .1);
+    }
+    &.active {
+      font-weight: 700;
+      color: #333;
+      background-color: #01ff70;
+    }
+  }
+}
+.character-portrait {
+  max-width: 150px;
+  border-radius: 75px;
+  cursor: pointer;
 }

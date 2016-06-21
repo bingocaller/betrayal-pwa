@@ -1,39 +1,97 @@
 'use strict';
 
 import React, { Component } from 'react';
+import classNames from 'classnames';
 
 require('styles/Character.scss');
 
 class CharacterComponent extends Component {
   constructor(props) {
     super(props);
+    this.state = {
+      expanded: props.fullBio,
+      currentAttributes: {
+        speed: this.props.character.stats.speed.defaultIndex,
+        might: this.props.character.stats.might.defaultIndex,
+        knowledge: this.props.character.stats.knowledge.defaultIndex,
+        sanity: this.props.character.stats.sanity.defaultIndex
+      }
+    }
+  }
+  updateCurrentAttributeValue(attributeName, index) {
+    let currentAttributes = this.state.currentAttributes;
+    currentAttributes[attributeName] = index;
+    this.setState({ currentAttributes: currentAttributes });
   }
   render () {
-    const { character, bio } = this.props;
-    character.hobbies = character.hobbies.join(', ');
-    const allProps = bio === 'full' ?
-      Object.getOwnPropertyNames(character).map(
-        (val, index) =>
-        <p key={ index }>
-          { `${ val.charAt(0).toUpperCase() + val.slice(1) }: ${ character[val] }` }
-        </p>
-      ) : null;
-    allProps.shift();
-    allProps.pop();
-    const stats =
-      Object.getOwnPropertyNames(character.stats).map(
-        (val, index) =>
-        <p key={ index }>
-          { `${ val.charAt(0).toUpperCase() + val.slice(1) }: ${ character.stats[val].attributes[character.stats[val].defaultIndex] }` }
-        </p>
-      );
+    const { character, fullBio } = this.props;
+    const characterClass = classNames(
+      'character',
+      {
+        'expanded': fullBio || this.state.expanded
+      }
+    )
+    let remainingProps, stats = null;
+    if (fullBio || this.state.expanded) {
+      character.hobbies = typeof character.hobbies === 'object' ? character.hobbies.join(', ') : character.hobbies;
+      remainingProps =
+        Object.getOwnPropertyNames(character).map(
+          (val, index) =>
+          <p key={ index }>
+            { `${ val.charAt(0).toUpperCase() + val.slice(1) }: ${ character[val] }` }
+          </p>
+        );
+      remainingProps.shift();
+      remainingProps.shift();
+      remainingProps.pop();
+      stats =
+        Object.getOwnPropertyNames(character.stats).map(
+          (val, index) =>
+          <div class="character-stats" key={ index }>
+            <p>
+              <strong>{ val.charAt(0).toUpperCase() + val.slice(1) }</strong>
+            </p>
+            <div className="slider">
+              {
+                character.stats[val].attributes.map(
+                  (attribute, i) => {
+                    return <span
+                      className={
+                        classNames(
+                          'attribute-value',
+                          {
+                            'active': i === this.state.currentAttributes[val],
+                            'default': i === character.stats[val].defaultIndex
+                          }
+                        )
+                      }
+                      onClick={ () => this.updateCurrentAttributeValue(val, i) }
+                      key={ i }>
+                      { attribute }
+                    </span>
+                  }
+                )
+              }
+            </div>
+          </div>
+        );
+    }
     return (
-      <div className="character">
-        <h2>
-          { character.name }
-        </h2>
-        { allProps }
-        { stats }
+      <div
+        className={ characterClass }
+      >
+        <div className="character-content">
+          <img
+            src={ `images/${ character.portrait }` } alt=""
+            className="character-portrait"
+            onClick={ () => this.setState({ expanded: !this.state.expanded }) }
+          />
+          <h2>
+            { character.name }
+          </h2>
+          { remainingProps }
+          { stats }
+        </div>
       </div>
     )
   }

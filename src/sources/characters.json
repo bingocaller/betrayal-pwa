@@ -1,6 +1,7 @@
 
 [
   {
+    "portrait": "brandon_jaspers.png",
     "name": "Brandon Jaspers",
     "age": 12,
     "height": 5.1,
@@ -75,6 +76,7 @@
     }
   },
   {
+    "portrait": "peter_akimoto.png",
     "name": "Peter Akimoto",
     "age": 13,
     "height": 4.11,
@@ -82,7 +84,7 @@
     "birthday": "1987-09-02",
     "hobbies": [
       "Bugs",
-      "Baseball"
+      "Basketball"
     ],
     "stats": {
       "speed": {
@@ -148,6 +150,7 @@
     }
   },
   {
+    "portrait": "darrin_flash_williams.png",
     "name": "Darrin \"Flash\" Williams",
     "age": 20,
     "height": 5.11,
@@ -222,6 +225,7 @@
     }
   },
   {
+    "portrait": "ox_bellows.png",
     "name": "Ox Bellows",
     "age": 23,
     "height": 6.4,
@@ -295,6 +299,7 @@
     }
   },
   {
+    "portrait": "father_rhinehardt.png",
     "name": "Father Rhinehardt",
     "age": 62,
     "height": 5.9,
@@ -368,6 +373,7 @@
     }
   },
   {
+    "portrait": "professor_longfellow.png",
     "name": "Professor Longfellow",
     "age": 57,
     "height": 5.11,
@@ -442,6 +448,7 @@
     }
   },
   {
+    "portrait": "heather_granville.png",
     "name": "Heather Granville",
     "age": 18,
     "height": 5.2,
@@ -515,6 +522,81 @@
     }
   },
   {
+    "portrait": "jenny_leclerc.png",
+    "name": "Jenny LeClerc",
+    "age": 21,
+    "height": 5.7,
+    "weight": "142 lbs",
+    "birthday": "1979-03-04",
+    "hobbies": [
+      "Reading",
+      "Soccer"
+    ],
+    "stats": {
+      "speed": {
+        "name": "Speed",
+        "attributes": [
+          0,
+          2,
+          3,
+          4,
+          4,
+          4,
+          5,
+          6,
+          8
+        ],
+        "defaultIndex": 4
+      },
+      "might": {
+        "name": "Might",
+        "attributes": [
+          0,
+          3,
+          4,
+          4,
+          4,
+          4,
+          5,
+          6,
+          8
+        ],
+        "defaultIndex": 3
+      },
+      "knowledge": {
+        "name": "Knowledge",
+        "attributes": [
+          0,
+          2,
+          3,
+          3,
+          4,
+          4,
+          5,
+          6,
+          8
+        ],
+        "defaultIndex": 3
+      },
+      "sanity": {
+        "name": "Sanity",
+        "attributes": [
+          0,
+          1,
+          1,
+          2,
+          4,
+          4,
+          4,
+          5,
+          6
+        ],
+        "defaultIndex": 5
+      }
+    }
+  },
+  {
+    "portrait": "zoe_ingstrom.png",
     "name": "Zoe Ingstrom",
     "age": 8,
     "height": 3.9,
@@ -588,6 +670,7 @@
     }
   },
   {
+    "portrait": "missy_dubourde.png",
     "name": "Missy Dubourde",
     "age": 9,
     "height": 4.2,
@@ -661,14 +744,16 @@
     }
   },
   {
-    "name": "Jenny LeClerc",
-    "age": 21,
-    "height": 5.7,
-    "weight": "142 lbs",
-    "birthday": "1979-03-04",
+    "portrait": "madame_zostra.png",
+    "name": "Madame Zostra",
+    "age": 37,
+    "height": 5.0,
+    "weight": "150 lbs",
+    "birthday": "1963-12-10",
     "hobbies": [
-      "Reading",
-      "Soccer"
+      "Astrology",
+      "Cooking",
+      "Baseball"
     ],
     "stats": {
       "speed": {
@@ -677,11 +762,85 @@
           0,
           2,
           3,
+          3,
+          5,
+          5,
+          6,
+          6,
+          7
+        ],
+        "defaultIndex": 3
+      },
+      "might": {
+        "name": "Might",
+        "attributes": [
+          0,
+          2,
+          3,
+          3,
+          4,
+          5,
+          5,
+          5,
+          6
+        ],
+        "defaultIndex": 4
+      },
+      "knowledge": {
+        "name": "Knowledge",
+        "attributes": [
+          0,
+          1,
+          3,
           4,
           4,
           4,
           5,
           6,
+          6
+        ],
+        "defaultIndex": 4
+      },
+      "sanity": {
+        "name": "Sanity",
+        "attributes": [
+          0,
+          4,
+          4,
+          4,
+          5,
+          6,
+          7,
+          8,
+          8
+        ],
+        "defaultIndex": 3
+      }
+    }
+  },
+  {
+    "portrait": "vivian_lopez.png",
+    "name": "Vivian Lopez",
+    "age": 42,
+    "height": 5.5,
+    "weight": "142 lbs",
+    "birthday": "1958-01-11",
+    "hobbies": [
+      "Old Movies",
+      "Horses"
+    ],
+    "stats": {
+      "speed": {
+        "name": "Speed",
+        "attributes": [
+          0,
+          3,
+          4,
+          4,
+          4,
+          4,
+          6,
+          7,
           8
         ],
         "defaultIndex": 4
@@ -690,14 +849,14 @@
         "name": "Might",
         "attributes": [
           0,
-          3,
-          4,
-          4,
+          2,
+          2,
+          2,
           4,
           4,
           5,
           6,
-          8
+          6
         ],
         "defaultIndex": 3
       },
@@ -705,31 +864,31 @@
         "name": "Knowledge",
         "attributes": [
           0,
-          2,
-          3,
-          3,
-          4,
           4,
           5,
+          5,
+          5,
+          5,
           6,
-          8
+          6,
+          7
         ],
-        "defaultIndex": 3
+        "defaultIndex": 4
       },
       "sanity": {
         "name": "Sanity",
         "attributes": [
           0,
-          1,
-          1,
-          2,
           4,
           4,
           4,
           5,
-          6
+          6,
+          7,
+          8,
+          8
         ],
-        "defaultIndex": 5
+        "defaultIndex": 3
       }
     }
   }
