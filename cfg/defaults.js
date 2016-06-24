@@ -2,6 +2,7 @@
 const path = require('path');
 const srcPath = path.join(__dirname, '/../src');
 const dfltPort = process.env.PORT || 8000;
+const dfltHost = process.env.host || 'localhost';
 function getDefaultModules() {
   return {
     preLoaders: [{
@@ -37,6 +38,7 @@ module.exports = {
   srcPath: srcPath,
   publicPath: '/assets/',
   port: dfltPort,
+  host: dfltHost,
   getDefaultModules: getDefaultModules,
   postcss: function () {
     return [];
