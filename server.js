@@ -11,7 +11,7 @@ new WebpackDevServer(webpack(config), config.devServer)
   if (err) {
     console.log(err);
   }
-  console.log(`Listening at ${config.host}: ${config.port}`);
+  console.log(`Listening at ${config.host}:${config.port}`);
   console.log('Opening your system browser...');
   open(`http://${config.host}:${config.port}/webpack-dev-server/`);
 });

@@ -2,7 +2,7 @@
 const path = require('path');
 const srcPath = path.join(__dirname, '/../src');
 const dfltPort = process.env.PORT || 8000;
-const dfltHost = process.env.host || 'localhost';
+const dfltHost = process.env.HOST || '0.0.0.0';
 function getDefaultModules() {
   return {
     preLoaders: [{
