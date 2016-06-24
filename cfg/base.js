@@ -40,6 +40,9 @@ module.exports = {
       config: `${defaultSettings.srcPath}/config/` + process.env.REACT_WEBPACK_ENV
     }
   },
+  resolveLoader: {
+    root: path.join(__dirname, 'node_modules')
+  },
   module: {},
   postcss: function() {
     return [
