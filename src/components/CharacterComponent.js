@@ -15,20 +15,27 @@ class CharacterComponent extends Component {
         might: this.props.character.stats.might.defaultIndex,
         knowledge: this.props.character.stats.knowledge.defaultIndex,
         sanity: this.props.character.stats.sanity.defaultIndex
-      }
+      },
+      characterIsDead: false
     }
   }
   updateCurrentAttributeValue(attributeName, index) {
     let currentAttributes = this.state.currentAttributes;
     currentAttributes[attributeName] = index;
     this.setState({ currentAttributes: currentAttributes });
+    if (index === 0) {
+      this.setState({ characterIsDead: true });
+    } else {
+      this.setState({ characterIsDead: false });
+    }
   }
   render () {
     const { character, fullBio } = this.props;
     const characterClass = classNames(
       'character',
       {
-        'expanded': fullBio || this.state.expanded
+        'expanded': fullBio || this.state.expanded,
+        'dead': this.state.characterIsDead
       }
     )
     let remainingProps, stats = null;
@@ -81,11 +88,11 @@ class CharacterComponent extends Component {
         className={ characterClass }
       >
         <div className="character-content">
-          <img
-            src={ `images/${ character.portrait }` } alt=""
+          <div
             className="character-portrait"
-            onClick={ () => this.setState({ expanded: !this.state.expanded }) }
-          />
+            onClick={ () => this.setState({ expanded: !this.state.expanded }) }>
+            <img src={ `images/${ character.portrait }` } alt="" />
+          </div>
           <h2>
             { character.name }
           </h2>
