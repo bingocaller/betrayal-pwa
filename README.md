@@ -1,5 +1,5 @@
 # betrayal-pwa
-A Progressive Web App for keeping score of character stats in Betrayal at House on the Hill.
+A Progressive Web App for keeping track of character stats in Betrayal at House on the Hill.
 
 ### Acknowledgements
 Made using [generator-react-webpack](https://github.com/newtriks/generator-react-webpack) by [Simon Bailey](https://github.com/newtriks).
