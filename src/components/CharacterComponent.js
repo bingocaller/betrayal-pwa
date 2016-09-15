@@ -54,7 +54,7 @@ class CharacterComponent extends Component {
       stats =
         Object.getOwnPropertyNames(character.stats).map(
           (val, index) =>
-          <div class="character-stats" key={ index }>
+          <div className="character-stats" key={ index }>
             <p>
               <strong>{ val.charAt(0).toUpperCase() + val.slice(1) }</strong>
             </p>
