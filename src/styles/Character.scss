@@ -7,14 +7,9 @@
     background-color: rgba(#fff, .2);
   }
   &.dead {
-    background-color: rgba(#f00, .5);
-    .character-portrait {
-      &::after {
-        opacity: 1;
-      }
-      img {
-        filter: grayscale(100);
-      }
+    background-color: rgba(#f00, .25);
+    .character-portrait img {
+      filter: grayscale(100%) brightness(30%);
     }
   }
   .slider {
@@ -62,17 +57,17 @@
   &:focus {
     box-shadow: 0 0 0 3px #fff, 0 0 0 5px #000, 0 0 0 7px #fff;
   }
-  &::after {
-    content: '💀';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    opacity: 0;
-    font-size: 6em;
-    transition: opacity .4s ease-out;
-  }
   img {
     width: 100%;
+  }
+  .icon--skull {
+    position: absolute;
+    top: 55%;
+    left: 47%;
+    transform-origin: center center;
+    transform: translate(-50%, -50%);
+    height: 140%;
+    opacity: 0;
+    animation: fade-in .2s ease-out forwards;
   }
 }

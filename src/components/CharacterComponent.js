@@ -2,6 +2,7 @@
 
 import React, { Component } from 'react';
 import classNames from 'classnames';
+import SkullIconComponent from './SkullIconComponent';
 
 require('styles/Character.scss');
 
@@ -37,7 +38,8 @@ class CharacterComponent extends Component {
         'expanded': fullBio || this.state.expanded,
         'dead': this.state.characterIsDead
       }
-    )
+    );
+    const skull = this.state.characterIsDead ? <SkullIconComponent color="#901111"/> : null;
     let remainingProps, stats = null;
     if (fullBio || this.state.expanded) {
       character.hobbies = typeof character.hobbies === 'object' ? character.hobbies.join(', ') : character.hobbies;
@@ -92,6 +94,7 @@ class CharacterComponent extends Component {
             className="character-portrait"
             onClick={ () => this.setState({ expanded: !this.state.expanded }) }>
             <img src={ `images/${ character.portrait }` } alt="" />
+            { skull }
           </div>
           <h2>
             { character.name }
