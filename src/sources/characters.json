@@ -1,6 +1,6 @@
 [
   {
-    "portrait": "brandon_jaspers.png",
+    "portrait": "brandon_jaspers.jpg",
     "name": "Brandon Jaspers",
     "age": 12,
     "height": 5.1,
@@ -75,7 +75,7 @@
     }
   },
   {
-    "portrait": "peter_akimoto.png",
+    "portrait": "peter_akimoto.jpg",
     "name": "Peter Akimoto",
     "age": 13,
     "height": 4.11,
@@ -149,7 +149,7 @@
     }
   },
   {
-    "portrait": "darrin_flash_williams.png",
+    "portrait": "darrin_flash_williams.jpg",
     "name": "Darrin \"Flash\" Williams",
     "age": 20,
     "height": 5.11,
@@ -224,7 +224,7 @@
     }
   },
   {
-    "portrait": "ox_bellows.png",
+    "portrait": "ox_bellows.jpg",
     "name": "Ox Bellows",
     "age": 23,
     "height": 6.4,
@@ -298,7 +298,7 @@
     }
   },
   {
-    "portrait": "father_rhinehardt.png",
+    "portrait": "father_rhinehardt.jpg",
     "name": "Father Rhinehardt",
     "age": 62,
     "height": 5.9,
@@ -372,7 +372,7 @@
     }
   },
   {
-    "portrait": "professor_longfellow.png",
+    "portrait": "professor_longfellow.jpg",
     "name": "Professor Longfellow",
     "age": 57,
     "height": 5.11,
@@ -447,7 +447,7 @@
     }
   },
   {
-    "portrait": "heather_granville.png",
+    "portrait": "heather_granville.jpg",
     "name": "Heather Granville",
     "age": 18,
     "height": 5.2,
@@ -521,7 +521,7 @@
     }
   },
   {
-    "portrait": "jenny_leclerc.png",
+    "portrait": "jenny_leclerc.jpg",
     "name": "Jenny LeClerc",
     "age": 21,
     "height": 5.7,
@@ -595,7 +595,7 @@
     }
   },
   {
-    "portrait": "zoe_ingstrom.png",
+    "portrait": "zoe_ingstrom.jpg",
     "name": "Zoe Ingstrom",
     "age": 8,
     "height": 3.9,
@@ -669,7 +669,7 @@
     }
   },
   {
-    "portrait": "missy_dubourde.png",
+    "portrait": "missy_dubourde.jpg",
     "name": "Missy Dubourde",
     "age": 9,
     "height": 4.2,
@@ -743,7 +743,7 @@
     }
   },
   {
-    "portrait": "madame_zostra.png",
+    "portrait": "madame_zostra.jpg",
     "name": "Madame Zostra",
     "age": 37,
     "height": 5.0,
@@ -818,7 +818,7 @@
     }
   },
   {
-    "portrait": "vivian_lopez.png",
+    "portrait": "vivian_lopez.jpg",
     "name": "Vivian Lopez",
     "age": 42,
     "height": 5.5,
