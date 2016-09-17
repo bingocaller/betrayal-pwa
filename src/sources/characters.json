@@ -15,60 +15,28 @@
       "speed": {
         "name": "Speed",
         "attributes": [
-          0,
-          3,
-          4,
-          4,
-          4,
-          5,
-          6,
-          7,
-          8
+          0, 3, 4, 4, 4, 5, 6, 7, 8
         ],
         "defaultIndex": 3
       },
       "might": {
         "name": "Might",
         "attributes": [
-          0,
-          2,
-          3,
-          3,
-          4,
-          5,
-          6,
-          6,
-          7
+          0, 2, 3, 3, 4, 5, 6, 6, 7
         ],
         "defaultIndex": 4
       },
       "knowledge": {
         "name": "Knowledge",
         "attributes": [
-          0,
-          1,
-          3,
-          3,
-          5,
-          5,
-          6,
-          6,
-          7
+          0, 1, 3, 3, 5, 5, 6, 6, 7
         ],
         "defaultIndex": 3
       },
       "sanity": {
         "name": "Sanity",
         "attributes": [
-          0,
-          3,
-          3,
-          3,
-          4,
-          5,
-          6,
-          7,
-          8
+          0, 3, 3, 3, 4, 5, 6, 7, 8
         ],
         "defaultIndex": 4
       }
@@ -89,60 +57,28 @@
       "speed": {
         "name": "Speed",
         "attributes": [
-          0,
-          3,
-          3,
-          3,
-          4,
-          6,
-          6,
-          7,
-          7
+          0, 3, 3, 3, 4, 6, 6, 7, 7
         ],
         "defaultIndex": 4
       },
       "might": {
         "name": "Might",
         "attributes": [
-          0,
-          2,
-          3,
-          3,
-          4,
-          5,
-          5,
-          6,
-          8
+          0, 2, 3, 3, 4, 5, 5, 6, 8
         ],
         "defaultIndex": 3
       },
       "knowledge": {
         "name": "Knowledge",
         "attributes": [
-          0,
-          3,
-          4,
-          4,
-          5,
-          6,
-          7,
-          7,
-          8
+          0, 3, 4, 4, 5, 6, 7, 7, 8
         ],
         "defaultIndex": 3
       },
       "sanity": {
         "name": "Sanity",
         "attributes": [
-          0,
-          3,
-          4,
-          4,
-          4,
-          5,
-          6,
-          6,
-          7
+          0, 3, 4, 4, 4, 5, 6, 6, 7
         ],
         "defaultIndex": 4
       }
@@ -164,60 +100,28 @@
       "speed": {
         "name": "Speed",
         "attributes": [
-          0,
-          4,
-          4,
-          4,
-          5,
-          6,
-          7,
-          7,
-          8
+          0, 4, 4, 4, 5, 6, 7, 7, 8
         ],
         "defaultIndex": 5
       },
       "might": {
         "name": "Might",
         "attributes": [
-          0,
-          2,
-          3,
-          3,
-          4,
-          5,
-          6,
-          6,
-          7
+          0, 2, 3, 3, 4, 5, 6, 6, 7
         ],
         "defaultIndex": 3
       },
       "knowledge": {
         "name": "Knowledge",
         "attributes": [
-          0,
-          2,
-          3,
-          3,
-          4,
-          5,
-          5,
-          5,
-          7
+          0, 2, 3, 3, 4, 5, 5, 5, 7
         ],
         "defaultIndex": 3
       },
       "sanity": {
         "name": "Sanity",
         "attributes": [
-          0,
-          1,
-          2,
-          3,
-          4,
-          5,
-          5,
-          5,
-          7
+          0, 1, 2, 3, 4, 5, 5, 5, 7
         ],
         "defaultIndex": 3
       }
@@ -238,60 +142,28 @@
       "speed": {
         "name": "Speed",
         "attributes": [
-          0,
-          2,
-          2,
-          2,
-          3,
-          4,
-          5,
-          5,
-          6
+          0, 2, 2, 2, 3, 4, 5, 5, 6
         ],
         "defaultIndex": 5
       },
       "might": {
         "name": "Might",
         "attributes": [
-          0,
-          4,
-          5,
-          5,
-          6,
-          6,
-          7,
-          8,
-          8
+          0, 4, 5, 5, 6, 6, 7, 8, 8
         ],
         "defaultIndex": 3
       },
       "knowledge": {
         "name": "Knowledge",
         "attributes": [
-          0,
-          2,
-          2,
-          3,
-          3,
-          5,
-          5,
-          6,
-          6
+          0, 2, 2, 3, 3, 5, 5, 6, 6
         ],
         "defaultIndex": 3
       },
       "sanity": {
         "name": "Sanity",
         "attributes": [
-          0,
-          2,
-          2,
-          3,
-          4,
-          5,
-          5,
-          6,
-          7
+          0, 2, 2, 3, 4, 5, 5, 6, 7
         ],
         "defaultIndex": 3
       }
@@ -312,60 +184,28 @@
       "speed": {
         "name": "Speed",
         "attributes": [
-          0,
-          2,
-          3,
-          3,
-          4,
-          5,
-          6,
-          7,
-          7
+          0, 2, 3, 3, 4, 5, 6, 7, 7
         ],
         "defaultIndex": 3
       },
       "might": {
         "name": "Might",
         "attributes": [
-          0,
-          1,
-          2,
-          2,
-          4,
-          4,
-          5,
-          5,
-          7
+          0, 1, 2, 2, 4, 4, 5, 5, 7
         ],
         "defaultIndex": 3
       },
       "knowledge": {
         "name": "Knowledge",
         "attributes": [
-          0,
-          1,
-          3,
-          3,
-          4,
-          5,
-          6,
-          6,
-          8
+          0, 1, 3, 3, 4, 5, 6, 6, 8
         ],
         "defaultIndex": 4
       },
       "sanity": {
         "name": "Sanity",
         "attributes": [
-          0,
-          3,
-          4,
-          5,
-          5,
-          6,
-          7,
-          7,
-          8
+          0, 3, 4, 5, 5, 6, 7, 7, 8
         ],
         "defaultIndex": 5
       }
@@ -387,60 +227,28 @@
       "speed": {
         "name": "Speed",
         "attributes": [
-          0,
-          2,
-          2,
-          4,
-          4,
-          5,
-          5,
-          6,
-          6
+          0, 2, 2, 4, 4, 5, 5, 6, 6
         ],
         "defaultIndex": 4
       },
       "might": {
         "name": "Might",
         "attributes": [
-          0,
-          1,
-          2,
-          3,
-          4,
-          5,
-          5,
-          6,
-          6
+          0, 1, 2, 3, 4, 5, 5, 6, 6
         ],
         "defaultIndex": 3
       },
       "knowledge": {
         "name": "Knowledge",
         "attributes": [
-          0,
-          4,
-          5,
-          5,
-          5,
-          5,
-          6,
-          7,
-          8
+          0, 4, 5, 5, 5, 5, 6, 7, 8
         ],
         "defaultIndex": 5
       },
       "sanity": {
         "name": "Sanity",
         "attributes": [
-          0,
-          1,
-          3,
-          3,
-          4,
-          5,
-          5,
-          6,
-          7
+          0, 1, 3, 3, 4, 5, 5, 6, 7
         ],
         "defaultIndex": 3
       }
@@ -461,60 +269,28 @@
       "speed": {
         "name": "Speed",
         "attributes": [
-          0,
-          3,
-          3,
-          4,
-          5,
-          6,
-          6,
-          7,
-          8
+          0, 3, 3, 4, 5, 6, 6, 7, 8
         ],
         "defaultIndex": 3
       },
       "might": {
         "name": "Might",
         "attributes": [
-          0,
-          3,
-          3,
-          3,
-          4,
-          5,
-          6,
-          7,
-          8
+          0, 3, 3, 3, 4, 5, 6, 7, 8
         ],
         "defaultIndex": 3
       },
       "knowledge": {
         "name": "Knowledge",
         "attributes": [
-          0,
-          2,
-          3,
-          3,
-          4,
-          5,
-          6,
-          7,
-          8
+          0, 2, 3, 3, 4, 5, 6, 7, 8
         ],
         "defaultIndex": 5
       },
       "sanity": {
         "name": "Sanity",
         "attributes": [
-          0,
-          3,
-          3,
-          3,
-          4,
-          5,
-          6,
-          6,
-          6
+          0, 3, 3, 3, 4, 5, 6, 6, 6
         ],
         "defaultIndex": 3
       }
@@ -535,60 +311,28 @@
       "speed": {
         "name": "Speed",
         "attributes": [
-          0,
-          2,
-          3,
-          4,
-          4,
-          4,
-          5,
-          6,
-          8
+          0, 2, 3, 4, 4, 4, 5, 6, 8
         ],
         "defaultIndex": 4
       },
       "might": {
         "name": "Might",
         "attributes": [
-          0,
-          3,
-          4,
-          4,
-          4,
-          4,
-          5,
-          6,
-          8
+          0, 3, 4, 4, 4, 4, 5, 6, 8
         ],
         "defaultIndex": 3
       },
       "knowledge": {
         "name": "Knowledge",
         "attributes": [
-          0,
-          2,
-          3,
-          3,
-          4,
-          4,
-          5,
-          6,
-          8
+          0, 2, 3, 3, 4, 4, 5, 6, 8
         ],
         "defaultIndex": 3
       },
       "sanity": {
         "name": "Sanity",
         "attributes": [
-          0,
-          1,
-          1,
-          2,
-          4,
-          4,
-          4,
-          5,
-          6
+          0, 1, 1, 2, 4, 4, 4, 5, 6
         ],
         "defaultIndex": 5
       }
@@ -609,60 +353,28 @@
       "speed": {
         "name": "Speed",
         "attributes": [
-          0,
-          4,
-          4,
-          4,
-          4,
-          5,
-          6,
-          8,
-          8
+          0, 4, 4, 4, 4, 5, 6, 8, 8
         ],
         "defaultIndex": 4
       },
       "might": {
         "name": "Might",
         "attributes": [
-          0,
-          2,
-          2,
-          3,
-          3,
-          4,
-          4,
-          6,
-          7
+          0, 2, 2, 3, 3, 4, 4, 6, 7
         ],
         "defaultIndex": 4
       },
       "knowledge": {
         "name": "Knowledge",
         "attributes": [
-          0,
-          1,
-          2,
-          3,
-          4,
-          4,
-          5,
-          5,
-          5
+          0, 1, 2, 3, 4, 4, 5, 5, 5
         ],
         "defaultIndex": 3
       },
       "sanity": {
         "name": "Sanity",
         "attributes": [
-          0,
-          3,
-          4,
-          5,
-          5,
-          6,
-          6,
-          7,
-          8
+          0, 3, 4, 5, 5, 6, 6, 7, 8
         ],
         "defaultIndex": 3
       }
@@ -683,60 +395,28 @@
       "speed": {
         "name": "Speed",
         "attributes": [
-          0,
-          3,
-          3,
-          5,
-          6,
-          6,
-          6,
-          7,
-          7
+          0, 3, 3, 5, 6, 6, 6, 7, 7
         ],
         "defaultIndex": 3
       },
       "might": {
         "name": "Might",
         "attributes": [
-          0,
-          2,
-          3,
-          3,
-          3,
-          4,
-          5,
-          6,
-          7
+          0, 2, 3, 3, 3, 4, 5, 6, 7
         ],
         "defaultIndex": 4
       },
       "knowledge": {
         "name": "Knowledge",
         "attributes": [
-          0,
-          2,
-          3,
-          4,
-          4,
-          5,
-          6,
-          6,
-          6
+          0, 2, 3, 4, 4, 5, 6, 6, 6
         ],
         "defaultIndex": 4
       },
       "sanity": {
         "name": "Sanity",
         "attributes": [
-          0,
-          1,
-          2,
-          3,
-          4,
-          5,
-          5,
-          6,
-          7
+          0, 1, 2, 3, 4, 5, 5, 6, 7
         ],
         "defaultIndex": 3
       }
@@ -758,60 +438,28 @@
       "speed": {
         "name": "Speed",
         "attributes": [
-          0,
-          2,
-          3,
-          3,
-          5,
-          5,
-          6,
-          6,
-          7
+          0, 2, 3, 3, 5, 5, 6, 6, 7
         ],
         "defaultIndex": 3
       },
       "might": {
         "name": "Might",
         "attributes": [
-          0,
-          2,
-          3,
-          3,
-          4,
-          5,
-          5,
-          5,
-          6
+          0, 2, 3, 3, 4, 5, 5, 5, 6
         ],
         "defaultIndex": 4
       },
       "knowledge": {
         "name": "Knowledge",
         "attributes": [
-          0,
-          1,
-          3,
-          4,
-          4,
-          4,
-          5,
-          6,
-          6
+          0, 1, 3, 4, 4, 4, 5, 6, 6
         ],
         "defaultIndex": 4
       },
       "sanity": {
         "name": "Sanity",
         "attributes": [
-          0,
-          4,
-          4,
-          4,
-          5,
-          6,
-          7,
-          8,
-          8
+          0, 4, 4, 4, 5, 6, 7, 8, 8
         ],
         "defaultIndex": 3
       }
@@ -832,60 +480,28 @@
       "speed": {
         "name": "Speed",
         "attributes": [
-          0,
-          3,
-          4,
-          4,
-          4,
-          4,
-          6,
-          7,
-          8
+          0, 3, 4, 4, 4, 4, 6, 7, 8
         ],
         "defaultIndex": 4
       },
       "might": {
         "name": "Might",
         "attributes": [
-          0,
-          2,
-          2,
-          2,
-          4,
-          4,
-          5,
-          6,
-          6
+          0, 2, 2, 2, 4, 4, 5, 6, 6
         ],
         "defaultIndex": 3
       },
       "knowledge": {
         "name": "Knowledge",
         "attributes": [
-          0,
-          4,
-          5,
-          5,
-          5,
-          5,
-          6,
-          6,
-          7
+          0, 4, 5, 5, 5, 5, 6, 6, 7
         ],
         "defaultIndex": 4
       },
       "sanity": {
         "name": "Sanity",
         "attributes": [
-          0,
-          4,
-          4,
-          4,
-          5,
-          6,
-          7,
-          8,
-          8
+          0, 4, 4, 4, 5, 6, 7, 8, 8
         ],
         "defaultIndex": 3
       }
