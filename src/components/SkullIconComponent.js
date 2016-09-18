@@ -18,7 +18,7 @@ class SkullIconComponent extends Component {
   }
 }
 
-SkullIconComponent.displayName = 'Chevron down icon';
+SkullIconComponent.displayName = 'Skull icon';
 
 // Uncomment properties you need
 // SkullIconComponent.propTypes = {};
