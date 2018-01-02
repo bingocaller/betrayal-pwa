@@ -1,8 +1,0 @@
-{
-  "generator-react-webpack": {
-    "appName": "betrayal-pwa",
-    "style": "scss",
-    "postcss": true,
-    "generatedWithVersion": 3
-  }
-}

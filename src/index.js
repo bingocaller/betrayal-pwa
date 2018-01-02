@@ -1,9 +1,12 @@
-import 'core-js/fn/object/assign';
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './components/Main';
+import './style';
+import { Component } from 'preact';
 
-require('normalize.css/normalize.css');
-
-// Render the main component into the dom
-ReactDOM.render(<App />, document.getElementById('app'));
+export default class App extends Component {
+	render() {
+		return (
+			<div>
+				<h1>Hello, World!</h1>
+			</div>
+		);
+	}
+}
