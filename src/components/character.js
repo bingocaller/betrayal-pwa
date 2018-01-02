@@ -26,27 +26,26 @@ class Character extends Component {
   updateCurrentAttributeValue(attributeName, index) {
     const { currentAttributes } = this.state;
     currentAttributes[attributeName] = index;
-    this.setState({ currentAttributes });
-    if (index === 0) {
-      this.setState({ characterIsDead: true });
-    } else {
-      this.setState({ characterIsDead: false });
-    }
+    this.setState({
+      currentAttributes,
+      characterIsDead: index === 0,
+    });
   }
-  renderSlider(character, val) {
-    character.stats[val].attributes.map((attribute, i) => (
+  renderSlider(character, stat, charIdentifier) {
+    return character.stats[stat].attributes.map((attribute, i) => (
       <button
         className={
           classNames(
             'attribute-value',
             {
-              active: i === this.state.currentAttributes[val],
-              default: i === character.stats[val].defaultIndex,
+              active: i === this.state.currentAttributes[stat],
+              default: i === character.stats[stat].defaultIndex,
             },
           )
         }
-        onClick={() => this.updateCurrentAttributeValue(val, i)}
-        key={i}
+        onClick={() => this.updateCurrentAttributeValue(stat, i)}
+        // eslint-disable-next-line react/no-array-index-key
+        key={`${charIdentifier}-${stat}-${i}`}
       >
         { attribute }
       </button>
@@ -62,27 +61,28 @@ class Character extends Component {
       }
     );
     const skull = this.state.characterIsDead ? <SkullIcon color="#901111" /> : null;
+    const charIdentifier = character.name.toLowerCase().replace(' ', '');
     let remainingProps;
     let stats = null;
     if (fullBio || this.state.expanded) {
       character.hobbies = typeof character.hobbies === 'object' ? character.hobbies.join(', ') : character.hobbies;
       remainingProps =
-        Object.getOwnPropertyNames(character).map((val, index) => (
-          <p key={index}>
-            { `${val.charAt(0).toUpperCase() + val.slice(1)}: ${character[val]}` }
+        Object.getOwnPropertyNames(character).map((attribute) => (
+          <p key={`${charIdentifier}-${attribute}`}>
+            { `${attribute.charAt(0).toUpperCase() + attribute.slice(1)}: ${character[attribute]}` }
           </p>
         ));
       remainingProps.shift();
       remainingProps.shift();
       remainingProps.pop();
       stats =
-        Object.getOwnPropertyNames(character.stats).map((val, index) => (
-          <div className="character-stats" key={index}>
+        Object.getOwnPropertyNames(character.stats).map((stat) => (
+          <div className="character-stats" key={`${charIdentifier}-${stat}-stats`}>
             <p>
-              <strong>{ val.charAt(0).toUpperCase() + val.slice(1) }</strong>
+              <strong>{ stat.charAt(0).toUpperCase() + stat.slice(1) }</strong>
             </p>
             <div className="slider">
-              { this.renderSlider(character, val) }
+              { this.renderSlider(character, stat, charIdentifier) }
             </div>
           </div>
         ));
