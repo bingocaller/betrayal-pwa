@@ -1,4 +1,11 @@
+@import 'utilities/animations';
+
+@import 'components/character';
+
 /* Base Application Styles */
+:root {
+  font-family: Roboto, sans-serif;
+}
 body {
   color: #fff;
   background: #222;

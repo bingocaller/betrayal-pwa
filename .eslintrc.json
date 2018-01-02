@@ -1,0 +1,8 @@
+{
+  "extends": "/Users/jesper_jakobsen/.eslintrc.json",
+  "rules": {
+    "react/jsx-filename-extension": 0,
+    "react/prop-types": 0,
+    "react/react-in-jsx-scope": 0
+  }
+}

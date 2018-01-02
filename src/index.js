@@ -1,9 +1,21 @@
-import 'core-js/fn/object/assign';
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './components/Main';
+import Helmet from 'preact-helmet';
+import 'normalize.css';
 
-require('normalize.css/normalize.css');
+import Characters from './routes/characters';
+// import Characters from 'async!./home';
 
-// Render the main component into the dom
-ReactDOM.render(<App />, document.getElementById('app'));
+import './style/main.scss';
+
+const App = () => (
+  <div id="app" className="app">
+    <Helmet
+      meta={[
+        { name: 'description', content: 'A PWA for keeping track of character stats in Betrayal at House on the Hill' },
+        { property: 'og:type', content: 'website' },
+      ]}
+    />
+    <Characters path="/" />
+  </div>
+);
+
+export default App;
