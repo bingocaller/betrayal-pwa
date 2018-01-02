@@ -1,11 +1,11 @@
 {
-  "name": "betrayal-pwa",
-  "short_name": "betrayal-pwa",
+  "name": "Betrayal at House on The Hill PWA",
+  "short_name": "Betrayal PWA",
   "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",
-  "background_color": "#fff",
-  "theme_color": "#673ab8",
+  "background_color": "#222",
+  "theme_color": "#01ff70",
   "icons": [
     {
       "src": "/assets/icon.png",
