@@ -16,7 +16,7 @@
     "classnames": "^2.2.5",
     "eslint": "^4.5.0",
     "if-env": "^1.0.0",
-    "node-sass": "^4.7.2",
+    "node-sass": "^7.0.0",
     "normalize.css": "^7.0.0",
     "preact-cli": "^2.0.0",
     "preact-helmet": "^4.0.0-alpha-3",
